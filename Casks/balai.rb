@@ -1,8 +1,8 @@
 # Cask Homebrew de Balai. La copie publiée vit dans le tap root-lr/homebrew-balai :
 # la CI y met à jour `version` et `sha256` à chaque release (voir .github/workflows/build.yml).
 cask "balai" do
-  version "0.1.0"
-  sha256 "e6399082f654c172a7b38b71e59b93c1ede615cbe1c06f3ad1f4d42a61b4397f"
+  version "0.2.0"
+  sha256 "9db678f18451339057051dd5f490885f20a0e68c57bd489257147fbe43963d6d"
 
   url "https://github.com/root-lr/Balai/releases/download/v#{version}/Balai.dmg"
   name "Balai"
