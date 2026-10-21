@@ -2,7 +2,7 @@
 # la CI y met à jour `version` et `sha256` à chaque release (voir .github/workflows/build.yml).
 cask "balai" do
   version "0.1.0"
-  sha256 :no_check
+  sha256 "e6399082f654c172a7b38b71e59b93c1ede615cbe1c06f3ad1f4d42a61b4397f"
 
   url "https://github.com/root-lr/Balai/releases/download/v#{version}/Balai.dmg"
   name "Balai"
